@@ -71,6 +71,10 @@ class STMicroRAGApp:
             if not st.session_state.vector_db_ready:
                 self.vector_db = SimpleVectorDatabase()
                 self.rag_engine = SimpleRAGEngine(self.vector_db)
+                
+                # ドキュメントブートストラップ
+                self.bootstrap_documents_if_needed()
+                
                 st.session_state.vector_db_ready = True
             else:
                 self.vector_db = SimpleVectorDatabase()
@@ -82,6 +86,25 @@ class STMicroRAGApp:
             logger.error(f"Component initialization failed: {e}")
             st.error(f"システムの初期化に失敗しました: {e}")
             st.stop()
+    
+    def bootstrap_documents_if_needed(self):
+        """必要に応じて基本文書をブートストラップ"""
+        try:
+            from bootstrap_docs import OnlineDocumentBootstrap
+            bootstrap = OnlineDocumentBootstrap(self.vector_db)
+            
+            if bootstrap.is_bootstrap_needed():
+                with st.spinner("📚 基本文書を初期化しています..."):
+                    success = bootstrap.bootstrap_documents()
+                    if success:
+                        logger.info("Documents bootstrapped successfully")
+                        st.success("基本文書の初期化が完了しました！")
+                    else:
+                        logger.warning("Bootstrap partially failed")
+                        
+        except Exception as e:
+            logger.error(f"Bootstrap failed: {e}")
+            # エラーがあっても続行
     
     def process_documents_if_needed(self):
         """必要に応じてドキュメントを処理"""
@@ -183,7 +206,7 @@ class STMicroRAGApp:
         render_tips_panel(tips)
         
         # メインコンテンツ
-        tab1, tab2, tab3, tab4 = st.tabs(["💬 Q&A", "⚡ コード生成", "🔍 ドキュメント検索", "📊 マイコン情報"])
+        tab1, tab2, tab3, tab4, tab5 = st.tabs(["💬 Q&A", "⚡ コード生成", "🔍 ドキュメント検索", "📊 マイコン情報", "🔧 デバッグ"])
         
         with tab1:
             self.render_qa_tab(selected_mc)
@@ -196,6 +219,9 @@ class STMicroRAGApp:
         
         with tab4:
             self.render_microcontroller_info_tab(selected_mc)
+        
+        with tab5:
+            self.render_debug_tab()
     
     def render_qa_tab(self, microcontroller: str):
         """Q&Aタブのレンダリング"""
@@ -319,6 +345,11 @@ class STMicroRAGApp:
             recommendation = self.microcontroller_selector.get_recommended_microcontroller(use_case)
             if recommendation["recommended"] == microcontroller:
                 st.success(f"**{use_case.title()}用途:** {recommendation['reason']}")
+    
+    def render_debug_tab(self):
+        """デバッグタブのレンダリング"""
+        from debug_api import debug_openai_api
+        debug_openai_api()
     
     def run(self):
         """アプリケーションの実行"""
