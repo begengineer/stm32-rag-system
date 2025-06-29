@@ -66,23 +66,63 @@ def debug_openai_api():
     except Exception as e:
         st.error(f"設定確認エラー: {e}")
     
+    # ベクターDB状態をチェック
+    st.subheader("📊 ベクターDB状態")
+    if st.button("🔍 ベクターDB診断"):
+        try:
+            from models.simple_vector_db import SimpleVectorDatabase
+            from config import Config
+            
+            vector_db = SimpleVectorDatabase()
+            doc_count = len(vector_db.documents)
+            
+            st.write(f"**ドキュメント数**: {doc_count}")
+            st.write(f"**ベクターDB パス**: {Config.get_vector_db_path()}")
+            
+            if doc_count == 0:
+                st.error("❌ ベクターDBが空です！")
+                
+                # ブートストラップを実行
+                if st.button("🚀 基本文書を初期化"):
+                    from bootstrap_docs import OnlineDocumentBootstrap
+                    bootstrap = OnlineDocumentBootstrap(vector_db)
+                    
+                    with st.spinner("初期化中..."):
+                        success = bootstrap.bootstrap_documents()
+                        if success:
+                            st.success("✅ 基本文書の初期化完了！")
+                            st.rerun()
+                        else:
+                            st.error("❌ 初期化失敗")
+            else:
+                st.success(f"✅ ベクターDBに{doc_count}個の文書があります")
+                
+                # サンプル検索テスト
+                if st.button("🧪 検索テスト"):
+                    results = vector_db.similarity_search("GPIO設定", k=3)
+                    if results:
+                        st.success(f"✅ {len(results)}件の関連文書が見つかりました")
+                        for i, doc in enumerate(results[:2]):
+                            st.write(f"**{i+1}.** {doc.page_content[:100]}...")
+                    else:
+                        st.error("❌ 関連文書が見つかりませんでした")
+                        
+        except Exception as e:
+            st.error(f"ベクターDB診断エラー: {e}")
+    
     # 簡易修正案の提示
     st.subheader("🔧 推奨修正案")
     st.markdown("""
-    **APIキーが無効な場合の対処法：**
+    **回答が生成されない場合の対処法：**
     
-    1. **新しいAPIキーを生成**
-       - https://platform.openai.com/api-keys にアクセス
-       - 新しいAPIキーを作成
+    1. **ベクターDBの初期化**
+       - 上記の「🚀 基本文書を初期化」ボタンを実行
     
-    2. **Streamlit Cloud Secretsを更新**
-       ```toml
-       [api_keys]
-       openai_api_key = "新しいAPIキー"
-       ```
+    2. **Q&Aタブでテスト**
+       - 「GPIO設定方法を教えて」などの質問を試す
     
-    3. **アプリを再起動**
-       - 「Reboot app」を実行
+    3. **アプリ再起動**
+       - 問題が続く場合は「Reboot app」を実行
     """)
 
 if __name__ == "__main__":
