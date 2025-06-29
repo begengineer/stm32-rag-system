@@ -1,0 +1,27 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8505
+
+INFO:models.simple_vector_db:Loaded 866 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+ERROR:__main__:Application error: 'SimpleRAGEngine' object has no attribute 'get_microcontroller_info'
+INFO:models.simple_vector_db:Loaded 866 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+ERROR:__main__:Application error: 'SimpleRAGEngine' object has no attribute 'get_microcontroller_info'
+INFO:models.simple_vector_db:Loaded 866 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_vector_db:Found 5 relevant documents for query: マイコンの基本的な使い方...
+ERROR:__main__:Application error: 'SimpleRAGEngine' object has no attribute 'get_microcontroller_info'
+INFO:models.simple_vector_db:Loaded 866 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+ERROR:__main__:Application error: 'SimpleRAGEngine' object has no attribute 'get_microcontroller_info'
+INFO:models.simple_vector_db:Loaded 866 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_vector_db:Found 3 relevant documents for query: ボタンを押すたびにLEDが点灯する サンプルコード プログラム 実装...
+ERROR:__main__:Application error: 'SimpleRAGEngine' object has no attribute 'get_microcontroller_info'
+INFO:models.simple_vector_db:Loaded 866 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_vector_db:Found 5 relevant documents for query: CubeMXの使い方を教えて...
+ERROR:__main__:Application error: 'SimpleRAGEngine' object has no attribute 'get_microcontroller_info'
+  Stopping...

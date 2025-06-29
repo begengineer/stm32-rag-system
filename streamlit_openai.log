@@ -1,0 +1,744 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8505
+
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/nucleo-f767zi.pdf: 23 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/tn1235-overview-of-stlink-derivatives-stmicroelectronics.pdf: 43 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/um1974-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf: 138 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/um1727-getting-started-with-stm32-nucleo-board-software-development-tools-stmicroelectronics.pdf: 26 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an1709-emc-design-guide-for-stm8-stm32-and-legacy-mcus-stmicroelectronics-ja.pdf: 57 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an2867-guidelines-for-oscillator-design-on-stm8afals-and-stm32-mcusmpus-stmicroelectronics-ja.pdf: 61 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P3' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P4' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P5' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an3126-audio-and-waveform-generation-using-the-dac-in-stm32-products-stmicroelectronics-en.pdf: 36 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an3154-how-to-use-can-protocol-in-bootloader-on-stm32-mcus-stmicroelectronics-en.pdf: 53 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an3155-usart-protocol-used-in-the-stm32-bootloader-stmicroelectronics-en.pdf: 74 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an3156-usb-dfu-protocol-used-in-the-stm32-bootloader-stmicroelectronics-en.pdf: 46 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4013-introduction-to-timers-for-stm32-mcus-stmicroelectronics-en.pdf: 91 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4031-using-the-stm32f2-stm32f4-and-stm32f7-series-dma-controller-stmicroelectronics-ja.pdf: 79 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4221-i2c-protocol-used-in-the-stm32-bootloader-stmicroelectronics-en.pdf: 92 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4230-introduction-to-random-number-generation-validation-using-the-nist-statistical-test-suite-for-stm32-mcus-and-mpus-stmicroelectronics-en.pdf: 59 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4277-how-to-use-pwm-shutdown-for-motor-control-and-digital-power-conversion-on-stm32-mcus-stmicroelectronics-en.pdf: 57 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4286-spi-protocol-used-in-the-stm32-bootloader-stmicroelectronics-en.pdf: 68 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4566-how-to-extend-the-dac-performance-on-stm32-mcus-stmicroelectronics-en.pdf: 30 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P3' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P4' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4655-virtually-increasing-the-number-of-serial-communication-peripherals-in-stm32-applications-stmicroelectronics-en.pdf: 47 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4660-migration-of-microcontroller-applications-from-stm32f42xxxf43xxx-devices-to-stm32f7-series-devices-stmicroelectronics-en.pdf: 93 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P3' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P4' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P4' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P4' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P7' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P8' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P9' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P10' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P11' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P12' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P13' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P14' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P15' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P16' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P17' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P18' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P19' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P20' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P21' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P22' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P23' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P24' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P25' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P26' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P27' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P28' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P29' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P30' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P31' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P32' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P33' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P34' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P35' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P36' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P37' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P38' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P39' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P40' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P41' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P42' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P43' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P44' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P45' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P46' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P47' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P48' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P49' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P50' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P51' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P52' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P53' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P54' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P55' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P56' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P57' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P58' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P59' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P60' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P61' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P62' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P63' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P64' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P65' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P66' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P67' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P68' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P69' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P70' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P71' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P72' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P73' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P74' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P75' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P76' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P77' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P78' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P79' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P80' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P81' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P82' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P83' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P84' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P85' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P86' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P87' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P88' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P89' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P90' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P91' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P92' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P93' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P94' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P95' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P96' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P97' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P98' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P99' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P100' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P101' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P102' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P103' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P104' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P105' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P106' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P107' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P108' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P109' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P110' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P111' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P112' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P113' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P114' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P115' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P116' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P117' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P118' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P119' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P120' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P121' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P122' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P123' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P124' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P125' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P126' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P127' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P128' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P129' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P130' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P131' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P132' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P133' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P134' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P135' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P136' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P137' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P138' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P139' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P140' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P141' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P142' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P143' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P144' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P145' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P146' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P147' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P148' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P149' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P150' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P151' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P152' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P153' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P154' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P155' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P156' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P157' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P158' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P159' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P160' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P161' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P162' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P163' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P164' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P165' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P166' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P167' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P168' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P169' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P170' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P171' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P172' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P173' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P174' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P175' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P176' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P177' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P178' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P179' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P180' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P181' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P182' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P183' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P184' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P185' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P186' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P187' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P188' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P189' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P190' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P191' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P192' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P193' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P194' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P195' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P196' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P197' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P198' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P199' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P200' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P201' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P202' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P203' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P204' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P205' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P206' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P207' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P208' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P209' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P210' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P211' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P212' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P213' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P214' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P215' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P216' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P217' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P218' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P219' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P220' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P221' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P222' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P223' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P224' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P225' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P226' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P227' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P228' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P229' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P230' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P231' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P232' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P233' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P234' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P235' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P236' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P237' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P238' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P239' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P240' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P241' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P242' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P243' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P244' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P245' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P246' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P247' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P248' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P249' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P250' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P251' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P252' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P253' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P254' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P255' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P256' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P257' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P258' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P259' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P260' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P261' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P262' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P263' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P264' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P265' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P266' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P267' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P268' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P269' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P270' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P271' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P272' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P273' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P274' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P275' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P276' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P277' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4661-getting-started-with-stm32f7-series-mcu-hardware-development-stmicroelectronics-en.pdf: 158 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P3' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P4' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P5' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P6' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4676-stm32f7-series-peripheral-interconnections-stmicroelectronics-en.pdf: 49 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4731-stm32cube-mcu-package-examples-for-stm32f7-series-stmicroelectronics-en.pdf: 121 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4750-handling-of-soft-errors-in-stm32-applications-stmicroelectronics-en.pdf: 54 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4759-introduction-to-using-the-hardware-real-time-clock-rtc-and-the-tamper-management-unit-tamp-with-stm32-mcus-stmicroelectronics-en.pdf: 175 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT3' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT4' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT5' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT6' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT7' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT8' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT9' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT10' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT11' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT12' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT13' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4760-quad-spi-interface-on-stm32-microcontrollers-and-microprocessors-stmicroelectronics-en.pdf: 215 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4776-general-purpose-timer-cookbook-for-stm32-microcontrollers-stmicroelectronics-ja.pdf: 157 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4803-high-speed-si-simulations-using-ibis-and-board-level-simulations-using-hyperlynx-si-on-stm32-mcus-and-mpus-stmicroelectronics-en.pdf: 43 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4839-level-1-cache-on-stm32f7-series-and-stm32h7-series-stmicroelectronics-en.pdf: 21 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4850-stm32-mcus-spread-spectrum-clock-generation-principles-properties-and-implementation-stmicroelectronics-en.pdf: 23 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT3' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT4' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT5' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT6' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT7' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT8' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT9' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT10' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT11' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT12' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT13' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT14' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT15' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT16' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT17' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT18' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT19' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT20' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT21' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT22' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT23' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT24' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT25' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT26' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT27' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT28' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT29' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT30' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT31' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT32' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT33' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT34' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT35' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT36' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT37' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT38' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT39' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT40' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT41' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT42' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT43' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT44' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT45' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT46' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT47' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT48' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT49' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT50' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT51' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT52' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT53' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT54' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT55' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT56' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT57' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT58' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT59' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT60' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT61' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT62' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT63' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT64' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT65' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT66' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT67' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT68' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT69' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT70' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT71' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT72' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT73' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT74' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT75' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT76' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT77' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT78' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT79' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT80' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT81' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT82' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT83' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT84' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT85' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT86' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT87' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT88' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT89' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT90' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT91' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT92' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT93' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT94' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT95' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT96' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT97' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT98' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT99' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT100' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT101' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT102' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT103' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT104' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT105' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT106' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT107' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT108' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT109' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT110' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT111' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT112' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT113' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT114' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT115' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT116' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT117' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT118' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT119' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT120' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT121' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT122' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT123' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT124' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT125' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT126' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT127' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT128' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT129' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT130' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT131' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT132' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT133' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT134' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT135' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT136' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT137' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT138' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT139' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT140' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT141' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT142' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT143' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT144' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT145' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT146' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT147' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT148' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT149' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT150' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT151' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT152' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT153' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT154' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT155' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT156' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT157' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT158' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT159' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4861-introduction-to-lcd-tft-display-controller-ltdc-on-stm32-mcus-stmicroelectronics-en.pdf: 196 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4879-introduction-to-usb-hardware-and-pcb-guidelines-using-stm32-mcus-stmicroelectronics-ja.pdf: 36 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4899-stm32-microcontroller-gpio-hardware-settings-and-low-power-consumption-stmicroelectronics-ja.pdf: 77 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4908-getting-started-with-usart-automatic-baud-rater-detection-for-stm32-mcus-stmicroelectronics-en.pdf: 38 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4936-migration-of-microcontroller-applications-from-stm32f7-series-to-stm32h743753-line-stmicroelectronics-en.pdf: 78 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4989-stm32-microcontroller-debug-toolbox-stmicroelectronics-en.pdf: 149 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4990-getting-started-with-sigma-delta-digital-interface-on-applicable-stm32-microcontrollers-stmicroelectronics-en.pdf: 140 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an4996-how-to-use-the-jpeg-codec-peripheral-on-stm32-mcus-stmicroelectronics-en.pdf: 83 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT1' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5020-introduction-to-digital-camera-interface-dcmi-for-stm32-mcus-stmicroelectronics-en.pdf: 199 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5027-interfacing-pdm-digital-microphones-using-stm32-mcus-and-mpus-stmicroelectronics-en.pdf: 103 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT3' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT4' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT5' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT6' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT7' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT8' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT9' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT10' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT11' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT12' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT13' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT14' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT15' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT16' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT17' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT18' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5036-guidelines-for-thermal-management-on-stm32-applications-stmicroelectronics-en.pdf: 65 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5073-receiving-spdif-audio-stream-with-the-stm32f4f7h7-series-stmicroelectronics-en.pdf: 41 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT1' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT2' is an invalid float value
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'PAT3' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5156-introduction-to-security-for-stm32-mcus-stmicroelectronics-ja.pdf: 91 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5225-introduction-to-usb-type-c-power-delivery-for-stm32-mcus-and-mpus-stmicroelectronics-en.pdf: 137 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5293-migration-guide-from-stm32f7-series-to-stmh74x75x-stm32h72x73x-and-stmh7a37bx-devices-stmicroelectronics-en.pdf: 116 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5537-how-to-use-adc-oversampling-techniques-to-improve-signal-to-noise-ratio-on-stm32-mcus-stmicroelectronics-en.pdf: 72 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5543-guidelines-for-enhanced-spi-communication-on-stm32-mcus-and-mpus-stmicroelectronics-en.pdf: 76 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5612-esd-protection-of-stm32-mcus-and-mpus-stmicroelectronics-en.pdf: 54 chunks created
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/an5647-the-goertzel-algorithm-to-compute-individual-terms-of-the-discrete-fourier-transform-dft-in-stm32-products-stmicroelectronics-en.pdf: 27 chunks created
+WARNING:pdfminer.pdfinterp:Cannot set gray non-stroke color because /'P1' is an invalid float value
+INFO:services.document_processor:Processed /mnt/c/Users/anpan/OneDrive/デスクトップ/WorkSpace/RAGSystem/AN/cd00211314-how-to-optimize-the-adc-accuracy-in-the-stm32-mcus-stmicroelectronics-ja.pdf: 104 chunks created
+INFO:services.document_processor:Total documents created: 4071
+INFO:models.simple_vector_db:Data saved successfully
+INFO:models.simple_vector_db:Added 4071 documents for NUCLEO-F767ZI
+INFO:models.simple_vector_db:Total documents: 4071
+INFO:models.simple_vector_db:Vocabulary size: 26009
+INFO:__main__:Processed 49 files into 4071 chunks
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: CubeMXでプロジェクトを作る手順は？...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: PWMでモーター制御したい...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: PWMでモーター制御したい サンプルコード プログラム 実装...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated code using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 0 relevant documents for query: CubeMX...
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 10 relevant documents for query: PWM...
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: CAN通信の送受信がしたい
+ サンプルコード プログラム 実装...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated code using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: CAN通信をするときのハードウェア構成...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: STM32 NUCLEO-F767ZIでCAN通信をする方法...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: Simulinkでこのマイコンを使う方法...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: SimulinkでCANこのマイコンでCAN通信を行う方法...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: アナログの入力を受け付けたい
+ サンプルコード プログラム 実装...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated code using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: このマイコンで低電力で運用する方法...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 10 relevant documents for query: PWM...
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 7 relevant documents for query: 低電力...
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 15 relevant documents for query: 低電力...
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: 回路設計のアドバイス...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: トラブルシューティング...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: ボタンを押すとPWM波形が出力される サンプルコード プログラム 実装...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated code using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: ボタンを押すとPWM波形が出力される.
+#include "stm32f7xx_hal.h"もそのま...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated code using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: ボタンを押すとPWM波形が1秒おきに出たりでなかったり サンプルコード プログラム 実装...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated code using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: CAN通信のSimulinkモデル...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: このマイコンでのCAN通信のSimulinkモデル...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+  Stopping...

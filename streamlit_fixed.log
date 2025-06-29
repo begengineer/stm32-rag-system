@@ -1,0 +1,23 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8505
+
+INFO:models.simple_vector_db:Loaded 1499 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 1499 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: SimulinkでCAN通信をする方法...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 1499 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI client initialized successfully
+INFO:models.simple_vector_db:Found 5 relevant documents for query: CAN通信時の回路構成...
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:models.simple_rag_engine:Generated answer using OpenAI API
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...

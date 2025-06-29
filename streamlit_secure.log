@@ -1,0 +1,24 @@
+
+  You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:8505
+
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI API key not found
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI API key not found
+INFO:models.simple_vector_db:Found 5 relevant documents for query: このマイコンでのSimulinkでのCAN通信の仕方...
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI API key not found
+INFO:models.simple_vector_db:Found 5 relevant documents for query: CAN通信です...
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+INFO:models.simple_vector_db:Loaded 4071 documents from cache
+INFO:models.simple_vector_db:Simple vector database initialized at: ../data/vector_store
+INFO:models.simple_rag_engine:OpenAI API key not found
+INFO:models.simple_vector_db:Found 3 relevant documents for query: NUCLEO-F767ZI 仕様 特性 概要...
+  Stopping...
