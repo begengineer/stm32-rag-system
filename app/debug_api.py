@@ -94,6 +94,19 @@ def debug_openai_api():
                             st.rerun()
                         else:
                             st.error("❌ 初期化失敗")
+                
+                # 直接実行ボタンも追加
+                if st.button("⚡ 今すぐ初期化実行"):
+                    from bootstrap_docs import OnlineDocumentBootstrap
+                    bootstrap = OnlineDocumentBootstrap(vector_db)
+                    st.write("初期化を開始します...")
+                    success = bootstrap.bootstrap_documents()
+                    st.write(f"初期化結果: {success}")
+                    if success:
+                        new_count = len(vector_db.documents) 
+                        st.success(f"✅ {new_count}個の文書を追加しました！")
+                    else:
+                        st.error("❌ 初期化に失敗しました")
             else:
                 st.success(f"✅ ベクターDBに{doc_count}個の文書があります")
                 
