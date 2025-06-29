@@ -91,13 +91,17 @@ class STMicroRAGApp:
         """必要に応じて基本文書をブートストラップ"""
         try:
             from bootstrap_docs import OnlineDocumentBootstrap
-            bootstrap = OnlineDocumentBootstrap()
+            bootstrap = OnlineDocumentBootstrap(self.vector_db)
             
             if bootstrap.is_bootstrap_needed():
                 with st.spinner("📚 基本文書を初期化しています..."):
-                    bootstrap.bootstrap_documents()
-                    logger.info("Documents bootstrapped successfully")
-                    
+                    success = bootstrap.bootstrap_documents()
+                    if success:
+                        logger.info("Documents bootstrapped successfully")
+                        st.success("基本文書の初期化が完了しました！")
+                    else:
+                        logger.warning("Bootstrap partially failed")
+                        
         except Exception as e:
             logger.error(f"Bootstrap failed: {e}")
             # エラーがあっても続行

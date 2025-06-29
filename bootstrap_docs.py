@@ -21,9 +21,13 @@ logger = logging.getLogger(__name__)
 class OnlineDocumentBootstrap:
     """オンライン文書ブートストラップ"""
     
-    def __init__(self):
-        self.vector_db = SimpleVectorDatabase()
-        self.doc_processor = DocumentProcessor()
+    def __init__(self, vector_db=None):
+        self.vector_db = vector_db or SimpleVectorDatabase()
+        try:
+            from models.document_processor import DocumentProcessor
+            self.doc_processor = DocumentProcessor()
+        except:
+            self.doc_processor = None
         
         # STM32基本文書のURL
         self.document_urls = {
