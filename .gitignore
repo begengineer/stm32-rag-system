@@ -44,8 +44,8 @@ logs/
 .streamlit/secrets.toml
 
 # Data
-data/vector_store/
-*.pdf
+# data/vector_store/  # 公開用にベクターDBを含める
+*.pdf  # PDFファイルは除外（大きすぎるため）
 *.docx
 
 # Temporary files
